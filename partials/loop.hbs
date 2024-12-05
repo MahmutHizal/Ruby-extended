@@ -4,7 +4,7 @@
         {{#if featured}}
             <img
                 class="post-image u-object-fit"
-                src="{{img_url feature_image}}"
+                src="{{img_url feature_image size="s" format="webp"}}"
                 alt="{{title}}"
                 loading="lazy"
             >
@@ -13,13 +13,13 @@
             <div class="u-placeholder same-height rectangle">
                 <img
                     class="post-image u-object-fit"
-                    srcset="{{img_url feature_image size="s"}} 400w,
-                            {{img_url feature_image size="m"}} 750w,
-                            {{img_url feature_image size="l"}} 960w,
-                            {{img_url feature_image size="xl"}} 1140w,
-                            {{img_url feature_image size="xxl"}} 1920w"
+                    srcset="{{img_url feature_image size="s" format="webp"}} 400w,
+                            {{img_url feature_image size="m" format="webp"}} 750w,
+                            {{img_url feature_image size="l" format="webp"}} 960w,
+                            {{img_url feature_image size="xl" format="webp"}} 1140w,
+                            {{img_url feature_image size="xxl" format="webp"}} 1920w"
                     sizes="600px"
-                    src="{{img_url feature_image size="l"}}"
+                    src="{{img_url feature_image size="l" format="webp"}}"
                     alt="{{title}}"
                     loading="lazy"
                 >
@@ -53,7 +53,7 @@
             {{#foreach authors}}
                 {{#if profile_image}}
                     <span class="post-author-link">
-                        <img class="post-author-image" src="{{img_url profile_image size="xs"}}" alt="{{name}}" loading="lazy">
+                        <img class="post-author-image" src="{{img_url profile_image size="xs" format="webp"}}" alt="{{name}}" loading="lazy">
                     </span>
                 {{/if}}
             {{/foreach}}
