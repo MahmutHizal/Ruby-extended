@@ -1,5 +1,5 @@
 {
-    "name": "ruby",
+    "name": "ruby-extended",
     "description": "A Ghost theme",
     "version": "1.0.0",
     "private": true,
@@ -8,8 +8,8 @@
     },
     "license": "MIT",
     "author": {
-        "name": "Ghost Foundation",
-        "email": "hello@ghost.org",
+        "name": "Mahmut HIZAL",
+        "email": "mahmuthizal@hotmail.com.tr",
         "url": "https://ghost.org"
     },
     "keywords": [
