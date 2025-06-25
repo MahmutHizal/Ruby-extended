@@ -2,3 +2,5 @@
 node_modules
 package-lock.json
 dist
+assets/built/screen.css
+assets/built/screen.css.map
