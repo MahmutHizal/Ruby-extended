@@ -29,6 +29,12 @@
             {{content}}
         </div>
 
+        {{#if @custom.show_post_content_ad}}
+            <div class="gh-ad gh-ad-post gh-canvas">
+                {{{@custom.post_content_ad_code}}}
+            </div>
+        {{/if}}
+
     </article>
 
     {{> "post-navigation"}}

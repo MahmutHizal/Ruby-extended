@@ -45,5 +45,14 @@
   "Next (arrow right)": "Next (arrow right)",
   "By {author}": "By {author}",
   "in {tag}": "in {tag}",
-  "By {authors}": "By {authors}"
+  "By {authors}": "By {authors}",
+
+  "Advertisements": "Advertisements",
+  "Show header ad": "Show header ad",
+  "Header ad code": "Header ad code (e.g. AdSense snippet)",
+  "Show ad in post list": "Show ad in post list",
+  "Post list ad code": "Post list ad code (e.g. AdSense snippet)",
+  "Post list ad position": "Post list ad position (e.g. 3)",
+  "Show ad below post content": "Show ad below post content",
+  "Post content ad code": "Post content ad code (e.g. AdSense snippet)"
 }

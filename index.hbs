@@ -6,6 +6,16 @@
     <div class="post-feed gh-feed">
         {{#foreach posts}}
             {{> "loop"}}
+
+            {{#if @custom.show_post_list_ad}}
+                {{#if @custom.post_list_ad_position}}
+                    {{#is @index @custom.post_list_ad_position}}
+                        <div class="gh-ad gh-ad-list">
+                            {{{@custom.post_list_ad_code}}}
+                        </div>
+                    {{/is}}
+                {{/if}}
+            {{/if}}
         {{/foreach}}
     </div>
 
