@@ -44,5 +44,6 @@
   "Previous (arrow left)" : "Previous (arrow left)",
   "Next (arrow right)": "Next (arrow right)",
   "By {author}": "By {author}",
-  "in {tag}": "in {tag}"
+  "in {tag}": "in {tag}",
+  "By {authors}": "By {authors}"
 }

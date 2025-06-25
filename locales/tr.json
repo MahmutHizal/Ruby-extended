@@ -47,6 +47,7 @@
   "in": "içinde",
   "By {author}": "{author} tarafından",
   "in {tag}": "{tag} içinde",
+  "By {authors}": "{authors} tarafından",
   "Search this site": "Bu sitede ara",
   "Toggle menu": "Menüyü aç/kapat"
 }
