@@ -9,11 +9,11 @@
 
             {{#if @custom.show_post_list_ad}}
                 {{#if @custom.post_list_ad_position}}
-                    {{#is @index @custom.post_list_ad_position}}
+                    {{#has number="nth:3"}}
                         <div class="gh-ad gh-ad-list">
                             {{{@custom.post_list_ad_code}}}
                         </div>
-                    {{/is}}
+                    {{/has}}
                 {{/if}}
             {{/if}}
         {{/foreach}}

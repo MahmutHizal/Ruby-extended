@@ -1,7 +1,7 @@
 {
     "name": "ruby-extended",
     "description": "A Ghost theme",
-    "version": "1.0.5",
+    "version": "1.0.8",
     "private": true,
     "engines": {
         "ghost": ">=5.0.0"
@@ -45,38 +45,37 @@
             "show_header_ad": {
                 "type": "boolean",
                 "default": false,
-                "group": "standard",
-                "key": "advertisements"
+                "group": "homepage"
             },
             "header_ad_code": {
                 "type": "text",
                 "default": "",
-                "group": "advertisements"
+                "group": "homepage"
             },
             "show_post_list_ad": {
                 "type": "boolean",
                 "default": false,
-                "group": "advertisements"
+                "group": "homepage"
             },
             "post_list_ad_code": {
                 "type": "text",
                 "default": "",
-                "group": "advertisements"
+                "group": "homepage"
             },
             "post_list_ad_position": {
                 "type": "text",
                 "default": "3",
-                "group": "advertisements"
+                "group": "homepage"
             },
             "show_post_content_ad": {
                 "type": "boolean",
                 "default": false,
-                "group": "advertisements"
+                "group": "post"
             },
             "post_content_ad_code": {
                 "type": "text",
                 "default": "",
-                "group": "advertisements"
+                "group": "post"
             },
             "navigation_layout": {
                 "type": "select",
