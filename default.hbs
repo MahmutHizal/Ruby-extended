@@ -62,6 +62,14 @@
         </div>
     </header>
 
+    {{#if @custom.show_header_ad}}
+        <div class="gh-ad gh-ad-header gh-outer">
+            <div class="gh-ad-inner gh-inner">
+                {{{@custom.header_ad_code}}}
+            </div>
+        </div>
+    {{/if}}
+
     <div class="site-content">
         {{{body}}}
     </div>

@@ -49,5 +49,14 @@
   "in {tag}": "{tag} içinde",
   "By {authors}": "{authors} tarafından",
   "Search this site": "Bu sitede ara",
-  "Toggle menu": "Menüyü aç/kapat"
+  "Toggle menu": "Menüyü aç/kapat",
+
+  "Advertisements": "Reklam Alanları",
+  "Show header ad": "Header reklamı göster",
+  "Header ad code": "Header reklam kodu (ör. AdSense kod parçacığı)",
+  "Show ad in post list": "Yazı listesinde reklam göster",
+  "Post list ad code": "Yazı listesi reklam kodu (ör. AdSense kod parçacığı)",
+  "Post list ad position": "Yazı listesi reklam konumu (ör. 3)",
+  "Show ad below post content": "Yazı içeriği altında reklam göster",
+  "Post content ad code": "Yazı içeriği altı reklam kodu (ör. AdSense kod parçacığı)"
 }

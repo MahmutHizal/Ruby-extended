@@ -1,7 +1,7 @@
 {
     "name": "ruby-extended",
     "description": "A Ghost theme",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "private": true,
     "engines": {
         "ghost": ">=5.0.0"
@@ -42,6 +42,46 @@
         },
         "card_assets": true,
         "custom": {
+            "advertisements_group": {
+                "type": "group",
+                "key": "advertisements",
+                "group": "standard"
+            },
+            "show_header_ad": {
+                "type": "boolean",
+                "default": false,
+                "group": "advertisements"
+            },
+            "header_ad_code": {
+                "type": "string",
+                "default": "",
+                "group": "advertisements"
+            },
+            "show_post_list_ad": {
+                "type": "boolean",
+                "default": false,
+                "group": "advertisements"
+            },
+            "post_list_ad_code": {
+                "type": "string",
+                "default": "",
+                "group": "advertisements"
+            },
+            "post_list_ad_position": {
+                "type": "number",
+                "default": 3,
+                "group": "advertisements"
+            },
+            "show_post_content_ad": {
+                "type": "boolean",
+                "default": false,
+                "group": "advertisements"
+            },
+            "post_content_ad_code": {
+                "type": "string",
+                "default": "",
+                "group": "advertisements"
+            },
             "navigation_layout": {
                 "type": "select",
                 "options": ["Logo on the left", "Logo in the middle", "Stacked"],
