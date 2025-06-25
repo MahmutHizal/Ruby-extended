@@ -42,5 +42,11 @@
   "Toggle fullscreen": "Tam ekranı aç/kapat",
   "Zoom in/out": "Yakınlaştır/Uzaklaştır",
   "Previous (arrow left)": "Önceki (sol ok tuşu)",
-  "Next (arrow right)": "Sonraki (sağ ok tuşu)"
+  "Next (arrow right)": "Sonraki (sağ ok tuşu)",
+  "By": "Tarafından",
+  "in": "içinde",
+  "By {author}": "{author} tarafından",
+  "in {tag}": "{tag} içinde",
+  "Search this site": "Bu sitede ara",
+  "Toggle menu": "Menüyü aç/kapat"
 }
